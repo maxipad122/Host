@@ -1,0 +1,92 @@
+/* Base reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.login-container {
+    background-color: #121212;
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 360px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* Header */
+h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #E0E0E0;
+    margin-bottom: 30px;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 6px;
+    color: #B3B3B3;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    font-size: 15px;
+    transition: background-color 0.2s ease, border 0.2s ease;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #888;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    background-color: #2C2C2C;
+    border: 1px solid #00C853;
+}
+
+/* Button */
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #00C853;
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #00B44B;
+}
+
+/* Social field container */
+.social-container {
+    margin-bottom: 20px;
+}
